@@ -27,5 +27,3 @@ npm run dev
 ```sh
 npm run build
 ```**
-SCREENSHOTS**
-![vue-2](https://github.com/MichealAXavier/Mobile-Price-Compare-App/assets/108583824/4b2b4528-33cc-4bbf-9118-d21d1c6d2c2d)
