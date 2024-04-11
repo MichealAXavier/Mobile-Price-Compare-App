@@ -51,8 +51,6 @@ body {
     justify-content: left;
     margin-bottom: 50px;
     flex-grow: 3;
-    width: 50px; /* Adjust width as needed */
-    height: 300px;
     position: relative; /* Ensure the delete button is positioned relative to the card-deck */
   }
   
