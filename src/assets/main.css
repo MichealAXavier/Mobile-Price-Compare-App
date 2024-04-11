@@ -1,0 +1,89 @@
+body {
+    background-color: #6cd1df;
+  }
+
+  
+  #head{
+    color: #0a0a0a; 
+    text-align: center; 
+    font-size: 30px;
+  }
+  
+  .compare-apple-mobiles {
+    background-color: #6cd1df; 
+    padding: 20px; 
+  }
+  
+  #label {
+    color: #fff; 
+    text-align: left;
+    font-size: 30px;
+  }
+  
+
+  .delete-btn {
+    cursor: pointer;
+    background-color: #e74c3c;
+    border: 0;
+    color: #09ec55;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 2px 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card {
+    position: relative;
+  }
+  
+  .card:hover .delete-btn {
+    opacity: 1;
+  }
+  
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 50px;
+    flex-grow: 3;
+    width: 50px; /* Adjust width as needed */
+    height: 300px;
+    position: relative; /* Ensure the delete button is positioned relative to the card-deck */
+  }
+  
+.card {
+  width: calc(50%  20px); /* Set width to 50% minus margin to accommodate 2 boxes per row */
+  margin: 0 20px 20px; /* Adjust margin between cards */
+  display: flex;
+}
+
+
+
+
+.flex-container {
+  background-color: #bfe9e5;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.container {
+  display: flex;
+  width: 100%; /* Ensures the container spans the full width of the screen */
+}
+
+.left-div {
+  width: 30%; /* Takes up 40% of the screen width */
+  background-color: #6cd1df;
+}
+
+.right-div {
+  width: 70%; /* Takes up 60% of the screen width */
+  background-color: #6cd1df;
+}
